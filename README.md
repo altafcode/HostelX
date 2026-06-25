@@ -11,7 +11,7 @@
 
 ## ✨ Key Features
 
-### 🔍 For Students
+### 🔍 For Tenants
 - **Smart Search & Filter**: Find the perfect home by city, area, budget, and specific facilities (WiFi, AC, Mess, etc.).
 - **Seamless Booking**: A streamlined flow for room selection and booking.
 - **Secure Payments**: Integrated with **Stripe** for easy rent and security deposit payments.
@@ -30,31 +30,31 @@
 ## 📸 Screenshots
 
 ### 🔐 Role-Selection Screen
-![Role-Selection Screen](screenshots/role_selection.png)
+![Role-Selection Screen](screenshot/role_selection.png)
 
 ### 📝 Login Screen
-![Login Screen](screenshots/login.png)
+![Login Screen](screenshotslogin.png)
 
 ### 👨‍🎓 Student Dashboard
-![Student Dashboard](screenshots/student_dashboard.png)
+![Student Dashboard](screenshot/student_dashboard.png)
 
 ### 🏘️ Hostel Listings
-![Hostel Listings](screenshots/hostel_listings.png)
+![Hostel Listings](screenshot/hostel_listings.png)
 
 ### 🏠 Hostel Details
-![Hostel Details](screenshots/hostel_details.png)
+![Hostel Details](screenshot/hostel_details.png)
 
 ### 📅 Booking Screen
-![Booking Screen](screenshots/booking.png)
+![Booking Screen](screenshot/booking.png)
 
 ### 🏢 Hostel Owner Dashboard
-![Owner Dashboard](screenshots/owner_dashboard.png)
+![Owner Dashboard](screenshot/owner_dashboard.png)
 
 ### ➕ Add Hostel Screen
-![Add Hostel Screen](screenshots/add_hostel.png)
+![Add Hostel Screen](screenshot/add_hostel.png)
 
 ### 🛡️ Admin Dashboard
-![Admin Dashboard](screenshots/admin_dashboard.png)
+![Admin Dashboard](screenshot/admin_dashboard.png)
 
 ## 🏗️ Project Architecture
 
