@@ -30,31 +30,31 @@
 ## 📸 Screenshots
 
 ### 🔐 Role-Selection Screen
-![Role-Selection Screen](screenshot/role_selection.png)
+![Role-Selection Screen](screenshot/role_selection.jpeg)
 
 ### 📝 Login Screen
-![Login Screen](screenshotslogin.png)
+![Login Screen](screenshotslogin.jpeg)
 
 ### 👨‍🎓 Student Dashboard
-![Student Dashboard](screenshot/student_dashboard.png)
+![Student Dashboard](screenshot/student_dashboard.jpeg)
 
 ### 🏘️ Hostel Listings
-![Hostel Listings](screenshot/hostel_listings.png)
+![Hostel Listings](screenshot/hostel_listings.jpeg)
 
 ### 🏠 Hostel Details
-![Hostel Details](screenshot/hostel_details.png)
+![Hostel Details](screenshot/hostel_details.jpeg)
 
 ### 📅 Booking Screen
-![Booking Screen](screenshot/booking.png)
+![Booking Screen](screenshot/booking.jpeg)
 
 ### 🏢 Hostel Owner Dashboard
-![Owner Dashboard](screenshot/owner_dashboard.png)
+![Owner Dashboard](screenshot/owner_dashboard.jpeg)
 
 ### ➕ Add Hostel Screen
-![Add Hostel Screen](screenshot/add_hostel.png)
+![Add Hostel Screen](screenshot/add_hostel.jpeg)
 
 ### 🛡️ Admin Dashboard
-![Admin Dashboard](screenshot/admin_dashboard.png)
+![Admin Dashboard](screenshot/admin_dashboard.jpeg)
 
 ## 🏗️ Project Architecture
 
