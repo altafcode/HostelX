@@ -1,4 +1,4 @@
-# 🏢 HostelX - Pakistan's Student Hostel Finder 🇵🇰
+# 🏢 HostelX — Pakistan's Student Hostel Finder 🇵🇰
 
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
@@ -27,34 +27,59 @@
 - **Financial Controls**: Set commission rates and manage platform-wide settings.
 
 ---
+
 ## 📸 Screenshots
 
-### 🔐 Role-Selection Screen
-![Role-Selection Screen](screenshot/role_selection.jpeg)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <b>Role Selection</b><br/>
+        <img src="screenshot/role_selection.jpeg" width="210" alt="Role Selection"/>
+      </td>
+      <td align="center">
+        <b>Tenant Dashboard</b><br/>
+        <img src="screenshot/tenant_dashboard.jpeg" width="210" alt="Tenant Dashboard"/>
+      </td>
+      <td align="center">
+        <b>Hostel Details</b><br/>
+        <img src="screenshot/hostel_details.jpeg" width="210" alt="Hostel Details"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>Booking Screen</b><br/>
+        <img src="screenshot/booking.jpeg" width="210" alt="Booking Screen"/>
+      </td>
+      <td align="center">
+        <b>Owner Dashboard</b><br/>
+        <img src="screenshot/owner_dashboard.jpeg" width="210" alt="Owner Dashboard"/>
+      </td>
+      <td align="center">
+        <b>Admin Dashboard</b><br/>
+        <img src="screenshot/admin_dashboard.jpeg" width="210" alt="Admin Dashboard"/>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### 📝 Login Screen
-![Login Screen](screenshotslogin.jpeg)
+---
 
-### 👨‍🎓 Student Dashboard
-![Student Dashboard](screenshot/student_dashboard.jpeg)
+## 🧰 Tech Stack
 
-### 🏘️ Hostel Listings
-![Hostel Listings](screenshot/hostel_listings.jpeg)
+| Layer | Technology |
+|---|---|
+| **Framework** | Flutter (Dart) |
+| **Architecture** | MVVM |
+| **State Management** | Provider |
+| **Backend & Database** | Firebase Firestore |
+| **Authentication** | Firebase Auth |
+| **File Storage** | Firebase Storage |
+| **Push Notifications** | Firebase Cloud Messaging + Node.js (Vercel) |
+| **Payments** | Stripe |
+| **Platform** | Android & iOS (Cross-Platform) |
 
-### 🏠 Hostel Details
-![Hostel Details](screenshot/hostel_details.jpeg)
-
-### 📅 Booking Screen
-![Booking Screen](screenshot/booking.jpeg)
-
-### 🏢 Hostel Owner Dashboard
-![Owner Dashboard](screenshot/owner_dashboard.jpeg)
-
-### ➕ Add Hostel Screen
-![Add Hostel Screen](screenshot/add_hostel.jpeg)
-
-### 🛡️ Admin Dashboard
-![Admin Dashboard](screenshot/admin_dashboard.jpeg)
+---
 
 ## 🏗️ Project Architecture
 
@@ -64,7 +89,7 @@
 │   ├── core/             # 🛠️ App Config, Themes & Utils
 │   ├── data/             # 📂 Models & Services (Firebase/Stripe)
 │   ├── domain/           # 🧠 Business Logic & Entities
-│   ├── features/         # 🎨 UI Screens (Student, Owner, Admin)
+│   ├── features/         # 🎨 UI Screens (Tenant, Owner, Admin)
 │   ├── providers/        # 🏗️ State Management
 │   └── routes/           # 🛣️ Navigation
 ├── push-server/          # ⚡ Node.js Vercel Functions (Notifications)
@@ -77,7 +102,13 @@
 
 ## 🛠️ Setup Instructions
 
-### 1️⃣ Environment Configuration 🔑
+### 1️⃣ Prerequisites
+- Flutter SDK `>=3.x.x`
+- Node.js `>=18.x`
+- A Firebase project
+- A Stripe account
+
+### 2️⃣ Environment Configuration 🔑
 We use environment variables to keep your sensitive keys secure. **Never share your `.env` file!**
 
 ```bash
@@ -88,16 +119,17 @@ cp .env.example .env
 cd push-server
 cp .env.example .env.local
 ```
+
 > [!IMPORTANT]
 > Open the new `.env` files and fill in your **Stripe API Keys** and **Firebase Service Account** details.
 
-### 2️⃣ Firebase Integration 🔥
+### 3️⃣ Firebase Integration 🔥
 1. Create a project in the [Firebase Console](https://console.firebase.google.com/).
 2. Download `google-services.json` (Android) to `android/app/`.
 3. Download `GoogleService-Info.plist` (iOS) to `ios/Runner/`.
 4. Generate a **Service Account Key** (JSON) from *Project Settings > Service Accounts* and save it as `serviceAccountKey.json` in the project root.
 
-### 3️⃣ Stripe Integration 💳
+### 4️⃣ Stripe Integration 💳
 1. Get your **Publishable** and **Secret** keys from the [Stripe Dashboard](https://dashboard.stripe.com/test/apikeys).
 2. Add them to your `.env` file under `STRIPE_PUBLISHABLE_KEY` and `STRIPE_SECRET_KEY`.
 
@@ -114,6 +146,7 @@ flutter run --dart-define-from-file=.env
 
 ### Seed Demo Data
 Populate your Firestore with high-quality demo data:
+
 ```bash
 cd scripts
 npm install
@@ -128,4 +161,27 @@ node seed_firebase.js
 - ✅ **API Keys** are injected at build time via environment variables.
 
 ---
-Developed with ❤️ for the students of Pakistan.
+
+## 👨‍💻 Author
+
+<div align="center">
+  <b>Muhammad Altaf</b><br/>
+  Flutter Developer &nbsp;|&nbsp; BS Information Technology<br/><br/>
+  <a href="https://www.linkedin.com/in/muhammad-altaf1">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/altaf.code">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/altafcode">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</div>
+
+---
+
+<div align="center">
+  Developed with ❤️ for the students of Pakistan.
+</div>
