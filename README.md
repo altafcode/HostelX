@@ -1,4 +1,4 @@
-# 🏢 HostelX - Pakistan's #1 Student Hostel Finder 🇵🇰
+# 🏢 HostelX - Pakistan's Student Hostel Finder 🇵🇰
 
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
