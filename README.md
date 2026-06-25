@@ -27,6 +27,34 @@
 - **Financial Controls**: Set commission rates and manage platform-wide settings.
 
 ---
+## 📸 Screenshots
+
+### 🔐 Role-Selection Screen
+![Role-Selection Screen](screenshots/role_selection.png)
+
+### 📝 Login Screen
+![Login Screen](screenshots/login.png)
+
+### 👨‍🎓 Student Dashboard
+![Student Dashboard](screenshots/student_dashboard.png)
+
+### 🏘️ Hostel Listings
+![Hostel Listings](screenshots/hostel_listings.png)
+
+### 🏠 Hostel Details
+![Hostel Details](screenshots/hostel_details.png)
+
+### 📅 Booking Screen
+![Booking Screen](screenshots/booking.png)
+
+### 🏢 Hostel Owner Dashboard
+![Owner Dashboard](screenshots/owner_dashboard.png)
+
+### ➕ Add Hostel Screen
+![Add Hostel Screen](screenshots/add_hostel.png)
+
+### 🛡️ Admin Dashboard
+![Admin Dashboard](screenshots/admin_dashboard.png)
 
 ## 🏗️ Project Architecture
 
